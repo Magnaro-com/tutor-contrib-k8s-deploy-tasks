@@ -59,7 +59,7 @@ MY_INIT_TASKS: list[tuple[str, tuple[str, ...]]] = [
     ("lms", ("k8s_deploy_tasks", "jobs", "init", "lms", "fix_oauth_redirect_uris")),
     ("lms", ("k8s_deploy_tasks", "jobs", "init", "lms", "nutmeg_deploy_tasks")),
     ("cms", ("k8s_deploy_tasks", "jobs", "init", "cms", "nutmeg_deploy_tasks")),
-    ("mysql", ("k8s_deploy_tasks", "jobs", "init", "mysql", "add_user_profiles")),
+    # ("mysql", ("k8s_deploy_tasks", "jobs", "init", "mysql", "add_user_profiles")),
 ]
 
 

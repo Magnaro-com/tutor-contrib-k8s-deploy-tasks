@@ -24,9 +24,10 @@ build-backend = "setuptools.build_meta:__legacy__"
 #------------------------------------------------------------------------------
 [project]
 name = "tutor-contrib-k8s-deploy-tasks"
-version = "15.0.2"
+version = "16.0.1"
 authors = [
-  { name="Lawrence McDaniel", email="lpm0073@gmail.com" }
+  { name="Lawrence McDaniel", email="lpm0073@gmail.com" },
+  { name="Michał Stawski", email="m.stawski@dideros.com" }
 ]
 description = "A Tutor plugin to manage deployment tasks that are exclusively (or mostly) specific to Kubernetes deployments"
 readme = "README.rst"
